@@ -1,7 +1,6 @@
-body{
-  background-color: #8cb3f2;
+body {
   margin: 50px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .mainHeader {
@@ -13,10 +12,53 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.name {
+  float: left;
+  padding-top: 250px;
+  padding-bottom: 410px;
+  padding-left: 130px;
+  padding-right: 100px;
+}
+
+.mainPhoto {
+  float: right;
+  padding-bottom: 50px;
 }
 
 h1 {
-  color: white;
+  color: black;
   font-style: normal;
   font-family: lucida console;
   font-size: 40px;
@@ -28,92 +70,68 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: black;
   font-style: normal;
   font-family: monospace;
   font-size: 30px;
 }
 
 h3 {
-  color: white;
+  color: black;
   font-style: normal;
   font-family: monospace;
   font-size: 20px;
 }
 
 h4 {
-  color: white;
+  color: black;
   font-style: normal;
   font-family: monospace;
   font-size: 18px;
-
 }
 
 p {
-  color: white;
+  color: black;
   font-style: normal;
   font-family: monospace;
   font-size: 16px;
 }
 
-.links {
-  padding-top: 15px;
-  text-align: center;
+.videoCategories {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.button1 {
-  background-color: lightblue;
-  border-radius: 25px;
-  color: black;
-  padding: 15px 40px;
-  text-align: center;
-  display: inline-block;
-  font-size: 17px;
-  font-family: monospace;
+.video {
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.button2 {
-  background-color: lightblue;
-  border-radius: 25px;
-  color: black;
-  padding: 15px 40px;
-  text-align: center;
-  display: inline-block;
-  font-size: 17px;
-  font-family: monospace;
+.videoTitle {
+  /*float: right;*/
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.button3 {
-  background-color: lightblue;
-  border-radius: 45px;
-  color: black;
-  padding: 15px 30px;
-  text-align: center;
-  display: inline-block;
-  font-size: 17px;
-  font-family: monospace;
+.videoDescription {
+  /*float: right;*/
+  padding-left: 700px;
+  padding-right: 50px;
+  padding-top: 50px;
 }
 
-.button4 {
-  background-color: lightblue;
-  border-radius: 45px;
-  color: black;
-  padding: 15px 30px;
-  text-align: center;
-  display: inline-block;
-  font-size: 17px;
-  font-family: monospace;
+.videoCards {
+  padding: 50px;
 }
 
-.nav {
-  text-align: left;
-}
 .home {
   text-align: left
-}
-.nav a {
-  color: lightblue;
-  font-size: 30px;
 }
 
 #Instagram {
